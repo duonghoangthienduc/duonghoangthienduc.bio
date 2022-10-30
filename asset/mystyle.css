@@ -1,0 +1,131 @@
+* {
+    font-family: "Varela Round", sans-serif;
+    scroll-behavior: smooth;
+}
+a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.bg-image {
+    background: url('/asset/imgs/BG-Rick-Morty.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 915px;
+}
+
+.content {
+    padding: 48px 324px 0;
+}
+
+#about-me .box-image {
+    width: 96px;
+    height: 96px;
+    margin: auto;
+}
+
+.box-image img {
+    border-radius: 50%;
+}
+
+.box-introduce .my-name h1 {
+    text-align: center;
+    margin-top: 24px;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box-introduce .job h2 {
+    text-align: center;
+    margin-top: 12px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.box-introduce .socials-media {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.box-introduce .socials-media a {
+    text-decoration: none;
+    font-size: 28px;
+    margin: 0 16px;
+    color: black;
+
+}
+
+.box-introduce .socials-media a i:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+    opacity: 0.8;
+}
+
+.box-introduce .socials-media a i:active {
+    opacity: 0.5;
+}
+
+.content .list-products {
+    margin-top: 12px;
+    display: block;
+}
+
+/*Products, List*/
+ul.list-group li.list-group-item {
+    margin: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%), 0px 10px 32px -4px rgb(24 39 75 / 10%), inset 0px 0px 2px 1px rgb(24 39 75 / 5%);
+}
+
+ul.list-group li.list-group-item a{
+    width: 100%;
+    display: block;
+}
+
+li.list-group-item:hover{
+    transform: translate3d(0px, 0px, 0px) scale(1.05);
+    transition: all 0.5s;
+}
+
+/*Footer*/
+
+.logo-description {
+    display: block;
+    padding: 150px 0 16px 0;
+    text-align: -webkit-center;
+}
+
+.logo-description .logo{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #91563F;
+}
+
+.logo-description .logo h4{
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    color: #D17C5A;
+}
+
+.logo-description .logo:hover{
+    transform: scale(1.5);
+    transition: all 0.25s;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    .content{
+        padding: 24px 0;
+    }
+    .box-introduce .job h2{
+        font-size: 12px;
+    }
+    .box-introduce .socials-media a{
+        margin: 0 3px;
+    }
+}
