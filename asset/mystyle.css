@@ -2,13 +2,15 @@
     font-family: "Varela Round", sans-serif;
     scroll-behavior: smooth;
 }
-a, a:hover{
+
+a,
+a:hover {
     text-decoration: none;
     color: black;
 }
 
 .bg-image {
-    background: url('https://i.ibb.co/zZ08VrB/BG-Rick-Morty.jpg') no-repeat center;
+    background: url("https://i.ibb.co/zZ08VrB/BG-Rick-Morty.jpg") no-repeat center;
     background-size: cover;
     min-height: 915px;
 }
@@ -78,12 +80,12 @@ ul.list-group li.list-group-item {
     box-shadow: 0px 6px 14px -6px rgb(24 39 75 / 12%), 0px 10px 32px -4px rgb(24 39 75 / 10%), inset 0px 0px 2px 1px rgb(24 39 75 / 5%);
 }
 
-ul.list-group li.list-group-item a{
+ul.list-group li.list-group-item a {
     width: 100%;
     display: block;
 }
 
-li.list-group-item:hover{
+li.list-group-item:hover {
     transform: translate3d(0px, 0px, 0px) scale(1.05);
     transition: all 0.5s;
 }
@@ -96,13 +98,13 @@ li.list-group-item:hover{
     text-align: -webkit-center;
 }
 
-.logo-description .logo{
+.logo-description .logo {
     width: 32px;
     height: 32px;
     border: 1px solid #91563F;
 }
 
-.logo-description .logo h4{
+.logo-description .logo h4 {
     line-height: 32px;
     text-transform: uppercase;
     font-weight: bolder;
@@ -110,7 +112,7 @@ li.list-group-item:hover{
     color: #D17C5A;
 }
 
-.logo-description .logo:hover{
+.logo-description .logo:hover {
     transform: scale(1.5);
     transition: all 0.25s;
     cursor: pointer;
@@ -119,13 +121,15 @@ li.list-group-item:hover{
 
 /*Mobile*/
 @media only screen and (max-width: 768px) {
-    .content{
+    .content {
         padding: 24px 0;
     }
-    .box-introduce .job h2{
+
+    .box-introduce .job h2 {
         font-size: 12px;
     }
-    .box-introduce .socials-media a{
+
+    .box-introduce .socials-media a {
         margin: 0 3px;
     }
 }
