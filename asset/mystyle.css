@@ -142,8 +142,4 @@ li.list-group-item:hover {
     .content {
         padding: 24px 0;
     }
-    .bg-image {
-        background: url("https://i.ibb.co/zZ08VrB/BG-Rick-Morty.jpg") no-repeat center;
-        background-size: cover;
-    }
 }
