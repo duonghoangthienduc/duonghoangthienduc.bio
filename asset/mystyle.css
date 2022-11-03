@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #43271B;
+}
+
 a,
 a:hover {
     text-decoration: none;
@@ -12,7 +16,7 @@ a:hover {
 .bg-image {
     background: url("https://i.ibb.co/zZ08VrB/BG-Rick-Morty.jpg") no-repeat center;
     background-size: cover;
-    min-height: 915px;
+    height: auto;
 }
 
 .content {
@@ -131,5 +135,15 @@ li.list-group-item:hover {
 
     .box-introduce .socials-media a {
         margin: 0 3px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .content {
+        padding: 24px 0;
+    }
+    .bg-image {
+        background: url("https://i.ibb.co/zZ08VrB/BG-Rick-Morty.jpg") no-repeat center;
+        background-size: cover;
     }
 }
